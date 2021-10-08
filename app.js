@@ -10,7 +10,7 @@
     // update DOM to reflect new value(s)
 
 function madLib(input) {
-    const pluralNoun1 = document.getElementById(`${input}-input`).value;
+    const pluralNoun1 = document.getElementById(`${input}-input`);
     const adjective1 = document.getElementById(`${input}-input`);
     const pluralNounAnimal1 = document.getElementById(`${input}-input`);
     const pluralNoun2 = document.getElementById(`${input}-input`);
@@ -50,6 +50,39 @@ function madLib(input) {
 
     function populate() {
         const in01 = pluralNoun1.value;
+        const in02 = adjective1.value;
+        const in03 = pluralNounAnimal1.value;
+        const in04 = pluralNoun2.value;
+        const in05 = adjective2.value;
+        const in06 = color.value;
+        const in07 = adjective3.value;
+        const in08 = noun1.value;
+        const in09 = pluralNoun3.value;
+        const in10 = adjective4.value;
+        const in11 = verb1.value;
+        const in12 = pluralNoun4.value;
+        const in13 = verbEd1.value;
+        const in14 = verb2.value;
+        const in15 = noun2.value;
+        const in16 = adjective5.value;
+       
+        const out01 = pluralNoun1Out.textContent;
+        const out02 = adjective1Out.textContent;
+        const out03 = pluralNounAnimal1Out.textContent;
+        const out04 = pluralNoun2Out.textContent;
+        const out05 = adjective2Out.textContent;
+        const out06 = colorOut.textContent;
+        const out07 = adjective3Out.textContent;
+        const out08 = noun1Out.textContent;
+        const out09 = pluralNoun3Out.textContent;
+        const out10 = adjective4Out.textContent;
+        const out11 = verb1Out.textContent;
+        const out12 = pluralNoun4Out.textContent;
+        const out13 = verbEd1Out.textContent;
+        const out14 = verb2Out.textContent;
+        const out15 = noun2Out.textContent;
+        const out16 = adjective5Out.textContent;
+
         console.log(in01);
     }
 }

@@ -34,13 +34,13 @@ footer {
     padding: 10px;
 }
 
-span {
+ /* span {
     margin-left: 20px;
     margin-right: 20px;
     background-color: yellow;
     text-decoration: underline;
-}
+} */
 
 #mad-lib {
-    opacity: 0.0 ;
+    
 }
