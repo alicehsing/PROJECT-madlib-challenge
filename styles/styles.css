@@ -33,3 +33,10 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+span {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: yellow;
+    text-decoration: underline;
+}
