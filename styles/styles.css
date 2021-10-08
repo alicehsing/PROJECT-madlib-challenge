@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chewy', fantasy;
+}
 
 body {        
     font-family: 'Titillium Web', sans-serif;
@@ -8,6 +14,8 @@ body {
 
 main {
     padding: 30px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 header {
@@ -34,13 +42,22 @@ footer {
     padding: 10px;
 }
 
- /* span {
-    margin-left: 20px;
-    margin-right: 20px;
+span {
+    color: blue;
     background-color: yellow;
     text-decoration: underline;
-} */
+    /* width: 10px; */
+    height: 10px;
+    padding: 0 10px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
 
 #mad-lib {
-    
+    margin-top: 50px;;
+    font-size: 3em;
 }

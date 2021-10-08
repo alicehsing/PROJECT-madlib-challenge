@@ -66,22 +66,23 @@ function madLib(input) {
         const in15 = noun2.value;
         const in16 = adjective5.value;
        
-        const out01 = pluralNoun1Out.textContent;
-        const out02 = adjective1Out.textContent;
-        const out03 = pluralNounAnimal1Out.textContent;
-        const out04 = pluralNoun2Out.textContent;
-        const out05 = adjective2Out.textContent;
-        const out06 = colorOut.textContent;
-        const out07 = adjective3Out.textContent;
-        const out08 = noun1Out.textContent;
-        const out09 = pluralNoun3Out.textContent;
-        const out10 = adjective4Out.textContent;
-        const out11 = verb1Out.textContent;
-        const out12 = pluralNoun4Out.textContent;
-        const out13 = verbEd1Out.textContent;
-        const out14 = verb2Out.textContent;
-        const out15 = noun2Out.textContent;
-        const out16 = adjective5Out.textContent;
+        pluralNoun1Out.textContent = in01;
+        adjective1Out.textContent = in02;
+        pluralNounAnimal1Out.textContent = in03;
+        pluralNoun2Out.textContent = in04;
+        adjective2Out.textContent = in05;
+        colorOut.textContent = in06;
+        adjective3Out.textContent = in07;
+        noun1Out.textContent = in08;
+        pluralNoun3Out.textContent = in09;
+        adjective4Out.textContent = in10;
+        verb1Out.textContent = in11;
+        pluralNoun4Out.textContent = in12;
+        verbEd1Out.textContent = in13;
+        verb2Out.textContent = in14;
+        noun2Out.textContent = in15;
+        adjective5Out.textContent = in16;
+
 
         console.log(in01);
     }
