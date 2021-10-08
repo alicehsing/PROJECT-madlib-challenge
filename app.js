@@ -44,13 +44,18 @@ function madLib(input) {
     const noun2Out = document.getElementById(`${input}`);
     const adjective5Out = document.getElementById(`${input}`);
 
+    const button = document.getElementById(`go-mad`);
 
+    button.addEventListener('click', populate);
 
+    function populate() {
+        const in01 = pluralNoun1.value;
+        console.log(in01);
+    }
 }
 
-function madLibify ('click', () =>{
-    
-})
+
+
 
 madLib(`p-noun-01`);
 madLib(`adj-01`);
