@@ -11,6 +11,7 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
 }
 
 main {
@@ -26,6 +27,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: linear-gradient(-45deg, red, orange, yellow, green, blue, purple);
+    color: yellow;
+    border-bottom: 10px solid magenta;
 }
 
 header img {
@@ -38,11 +42,17 @@ h1 {
     font-weight: bold;
     margin-bottom: 20px;
     font-family: Chewy;
+    letter-spacing: 2px;
 }
 
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+    background-image: linear-gradient(-45deg, red, orange, yellow, green, blue, purple);
+    font-family: chewy;
+    color: yellow;
+    letter-spacing: 2px;
+    border-top: 10px solid magenta;
 }
 
 span {
