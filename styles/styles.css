@@ -35,6 +35,7 @@ header img {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -44,13 +45,18 @@ footer {
 
 span {
     color: blue;
-    background-color: yellow;
+    border-bottom: 3px solid blue;
     text-decoration: underline;
     /* width: 10px; */
     height: 10px;
     padding: 0 10px;
+
 }
 
+input {
+    height: 1.5rem; 
+    padding-left: 3px;
+}
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -60,4 +66,9 @@ span {
 #mad-lib {
     margin-top: 50px;;
     font-size: 3em;
+    /* visibility: hidden; */
+}
+
+.hidden {
+    visibility: hidden;
 }

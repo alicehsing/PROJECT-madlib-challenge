@@ -83,13 +83,11 @@ function madLib(input) {
         noun2Out.textContent = in15;
         adjective5Out.textContent = in16;
 
-
-        console.log(in01);
+        const unhide = document.getElementById('mad-lib');
+        unhide.classList.remove('hidden');
+    
     }
 }
-
-
-
 
 madLib(`p-noun-01`);
 madLib(`adj-01`);
